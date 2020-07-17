@@ -17,7 +17,9 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	runtimeOnly 'mysql:mysql-connector-java'
 	implementation 'org.projectlombok:lombok'
+	compile('org.springframework.session:spring-session-jdbc')
 	implementation 'javax.xml.bind:jaxb-api'
+	compile("org.springframework.boot:spring-boot-starter-thymeleaf")
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	compile('org.springframework.boot:spring-boot-starter-security')
 	compile('org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.2.6.RELEASE')
